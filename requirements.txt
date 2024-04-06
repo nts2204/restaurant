@@ -1,3 +1,4 @@
 dash
 dash-tools
 plotly
+matplotlib
