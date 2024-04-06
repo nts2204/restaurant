@@ -30,10 +30,10 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 # load model
-model = load('models\svm_project1.joblib')
+model = load('svm_project1.joblib')
 
 # load data
-df = pd.read_csv('Data/2_Reviews.csv')
+df = pd.read_csv('2_Reviews.csv')
 
 def plot_wordcloud(data):
     d = {a: x for a, x in data.values}
