@@ -3,3 +3,4 @@ dash-tools
 plotly
 matplotlib
 dash_bootstrap_components
+regex
