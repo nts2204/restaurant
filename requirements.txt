@@ -4,3 +4,7 @@ plotly
 matplotlib
 dash_bootstrap_components
 regex
+wordcloud
+joblib
+warnings
+io

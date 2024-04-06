@@ -6,7 +6,7 @@ from dash import html
 import numpy as np
 import plotly.graph_objs as go
 import matplotlib.pyplot as plt
-import src.preprocessing_text as pt
+# import src.preprocessing_text as pt
 # from underthesea import word_tokenize, pos_tag, sent_tokenize
 # import regex
 
@@ -143,8 +143,8 @@ def update_pie_chart(n_clicks, id):
     text_pos = ' '.join(data[data['pred'] == 'Positive']['Comment'])
 
     # clean text loại bỏ stopword
-    text_neg = pt.optimized_process_text(text_neg, pt.stopwords_lst)
-    text_pos = pt.optimized_process_text(text_pos, pt.stopwords_lst)
+    # text_neg = pt.optimized_process_text(text_neg, pt.stopwords_lst)
+    # text_pos = pt.optimized_process_text(text_pos, pt.stopwords_lst)
 
     # text_neu = ' '.join(data[data['pred'] == 'Neutral']['Comment'])
 
